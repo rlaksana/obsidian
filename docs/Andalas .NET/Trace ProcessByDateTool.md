@@ -1,4 +1,8 @@
-#tracing
+---
+tags:
+  - trace
+---
+
 ![[../Untitled-1695548298526.jpeg|Untitled-1695548298526.jpeg]]
 
 - 24443.67 ms is approximately 0.4074 minutes.

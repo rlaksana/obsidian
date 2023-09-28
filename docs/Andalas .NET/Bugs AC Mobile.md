@@ -1,4 +1,8 @@
-#bugs
+---
+tags:
+  - bugs
+---
+
 # DONE
 - [done] tidak bisa submit request leave (fixed). sebab karena backend ada field yang tiba-tiba required menyebabkan error.
 - [done] tidak bisa masuk menu claim. sebab karena salah url ada double slash. tidak tahu kenapa bisa ada double slash.
