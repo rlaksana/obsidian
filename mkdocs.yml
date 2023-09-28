@@ -4,8 +4,8 @@ site_url: https://github_username.github.io/obsidian
 
 theme:
     name: 'material'
-    logo: assets/meta/favicons.png
-    favicon: assets/meta/favicons.png
+    logo: assets/meta/logo.jpg
+    favicon: assets/meta/logo.jpg
     custom_dir: overrides
     font:
         text: Ubuntu
@@ -124,8 +124,8 @@ extra_css:
 extra:
   SEO: assets/meta/SEO.png
   comments: false #disable comments globally
-  generate_graph: true #generate the graph of the site
-  attachments: 'assets/img' #path to the folder where the attachments are stored
+  generate_graph: false #generate the graph of the site
+  attachments: 'resources' #path to the folder where the attachments are stored
   no-auto-h1: false #disable the automatic generation of h1 if no h1 is found
   blog_list:
     pagination: true #enable pagination
