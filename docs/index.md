@@ -1,3 +1,5 @@
+![Alt text](images/image.png)
+
 # **Welcome to .NET Masterclass**
 
 ## **Your Gateway to Excellence in .NET Programming**
