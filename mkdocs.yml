@@ -96,6 +96,7 @@ plugins:
       file: 'assets/css/custom_attributes.css'
   - tags:
       tags_file: tags.md
+      tags: false
   - encryptcontent:
       title_prefix: '🔐'
       summary: 'Private page'
