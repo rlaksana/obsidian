@@ -1,3 +1,4 @@
+#bugs
 - [Perf] TransactionDetailClaim tidak memiliki query filter berdasarkan StatusRecordDelete dan CustomerId.(Solusi: setiap ada masalah navigation problem di class Entity langsung di betulkan.)
 - [Perf] Banyak saveChanges karena mereka takut adanya SELECT dimana mendapatkan data lama karena belom di "saveChanges" (Solusi: bisa menggunakan begin transaction di awal unit of work dan melakukan commit di akhir unit of work)
 - [Data] Data yang tidak consistent dengan melakukan save changes berulang-ulang dalam satu unit of work (Solusi: sama dengan cara atas menggunakan transaction)
