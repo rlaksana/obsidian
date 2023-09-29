@@ -20,7 +20,6 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -42,7 +41,6 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
-
 # Extensions
 markdown_extensions:
   - footnotes
@@ -86,10 +84,10 @@ plugins:
   - meta-descriptions
   - git-revision-date-localized:
       type: date
-      fallback_to_build_date: true
+      fallback_to_build_date: false
       locale: fr
       custom_format: "%A %d %B %Y"
-      enable_creation_date: true
+      enable_creation_date: false 
   - ezlinks:
       wikilinks: true
   - awesome-pages
@@ -130,7 +128,7 @@ extra:
   comments: false #disable comments globally
   generate_graph: false #generate the graph of the site
   attachments: "resources" #path to the folder where the attachments are stored
-  no-auto-h1: false #disable the automatic generation of h1 if no h1 is found
+  no-auto-h1: true #disable the automatic generation of h1 if no h1 is found
   blog_list:
     pagination: true #enable pagination
     pagination_message: true #display the message "Showing x posts out of y"
